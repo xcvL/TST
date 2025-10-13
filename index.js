@@ -3,404 +3,232 @@ command : function
 ================================
 help : Show commands
 langs : Show target languages
-exit : close the language/command menu
+exit : Close the language/command menu
 `
+
 const targetLangs = `
 language code : target language
 ================================
-ab : Abkhazian
-aa : Afar
+ab : Abkhaz
+ace : Acehnese
+ach : Acholi
 af : Afrikaans
-ak : Akan
 sq : Albanian
+alz : Alur
 am : Amharic
 ar : Arabic
-an : Aragonese
 hy : Armenian
 as : Assamese
-av : Avaric
-ae : Avestan
+awa : Awadhi
 ay : Aymara
 az : Azerbaijani
+ban : Balinese
 bm : Bambara
 ba : Bashkir
 eu : Basque
+btx : Batak Karo
+bts : Batak Simalungun
+bbc : Batak Toba
 be : Belarusian
+bem : Bemba
 bn : Bengali
-bi : Bislama
+bew : Betawi
+bho : Bhojpuri
+bik : Bikol
 bs : Bosnian
 br : Breton
 bg : Bulgarian
-my : Burmese
-ca : Catalan, Valencian
-ch : Chamorro
-ce : Chechen
-ny : Chichewa, Chewa, Nyanja
-zh : Chinese
-cu : Church Slavonic, Old Slavonic, Old Church Slavonic
+bua : Buryat
+yue : Cantonese
+ca : Catalan
+ceb : Cebuano
+ny : Chichewa (Nyanja)
+zh-CN : Chinese (Simplified)
+zh-TW : Chinese (Traditional)
 cv : Chuvash
-kw : Cornish
 co : Corsican
-cr : Cree
+crh : Crimean Tatar
 hr : Croatian
 cs : Czech
 da : Danish
-dv : Divehi, Dhivehi, Maldivian
-nl : Dutch, Flemish
+din : Dinka
+dv : Divehi
+doi : Dogri
+dov : Dombe
+nl : Dutch
 dz : Dzongkha
 en : English
 eo : Esperanto
 et : Estonian
 ee : Ewe
-fo : Faroese
 fj : Fijian
+fil : Filipino (Tagalog)
+tl : Filipino (Tagalog)
 fi : Finnish
 fr : French
-fy : Western Frisian
-ff : Fulah
-gd : Gaelic, Scottish Gaelic
+fr-FR : French (France)
+fr-CA : French (Canadian)
+fy : Frisian
+ff : Fulfulde
+gaa : Ga
 gl : Galician
-lg : Ganda
+lg : Ganda (Luganda)
 ka : Georgian
 de : German
-el : Greek, Modern (1453-)
-kl : Kalaallisut, Greenlandic
+el : Greek
 gn : Guarani
 gu : Gujarati
-ht : Haitian, Haitian Creole
+ht : Haitian Creole
+cnh : Hakha Chin
 ha : Hausa
+haw : Hawaiian
+iw : Hebrew
 he : Hebrew
-hz : Herero
+hil : Hiligaynon
 hi : Hindi
-ho : Hiri Motu
+hmn : Hmong
 hu : Hungarian
+hrx : Hunsrik
 is : Icelandic
-io : Ido
 ig : Igbo
+ilo : Iloko
 id : Indonesian
-ia : Interlingua (International Auxiliary Language Association)
-ie : Interlingue, Occidental
-iu : Inuktitut
-ik : Inupiaq
 ga : Irish
 it : Italian
 ja : Japanese
+jw : Javanese
 jv : Javanese
 kn : Kannada
-kr : Kanuri
-ks : Kashmiri
+pam : Kapampangan
 kk : Kazakh
-km : Central Khmer
-ki : Kikuyu, Gikuyu
+km : Khmer
+cgg : Kiga
 rw : Kinyarwanda
-ky : Kyrgyz, Kirghiz
-kv : Komi
-kg : Kongo
+ktu : Kituba
+gom : Konkani
 ko : Korean
-kj : Kuanyama, Kwanyama
-ku : Kurdish
+kri : Krio
+ku : Kurdish (Kurmanji)
+ckb : Kurdish (Sorani)
+ky : Kyrgyz
 lo : Lao
+ltg : Latgalian
 la : Latin
 lv : Latvian
-li : Limburgan, Limburger, Limburgish
+lij : Ligurian
+li : Limburgan
 ln : Lingala
 lt : Lithuanian
-lu : Luba-Katanga
-lb : Luxembourgish, Letzeburgesch
+lmo : Lombard
+luo : Luo
+lb : Luxembourgish
 mk : Macedonian
+mai : Maithili
+mak : Makassar
 mg : Malagasy
 ms : Malay
+ms-Arab : Malay (Jawi)
 ml : Malayalam
 mt : Maltese
-gv : Manx
 mi : Maori
 mr : Marathi
-mh : Marshallese
+chm : Meadow Mari
+mni-Mtei : Meiteilon (Manipuri)
+min : Minang
+lus : Mizo
 mn : Mongolian
-na : Nauru
-nv : Navajo, Navaho
-nd : North Ndebele
-nr : South Ndebele
-ng : Ndonga
+my : Myanmar (Burmese)
+nr : Ndebele (South)
+new : Nepal Bhasa (Newari)
 ne : Nepali
+nso : Northern Sotho (Sepedi)
 no : Norwegian
-nb : Norwegian Bokmål
-nn : Norwegian Nynorsk
+nus : Nuer
 oc : Occitan
-oj : Ojibwa
 or : Oriya
 om : Oromo
-os : Ossetian, Ossetic
-pi : Pali
-ps : Pashto, Pushto
+pag : Pangasinan
+pap : Papiamento
+ps : Pashto
 fa : Persian
 pl : Polish
 pt : Portuguese
-pa : Punjabi, Panjabi
+pt-PT : Portuguese (Portugal)
+pt-BR : Portuguese (Brazil)
+pa : Punjabi
+pa-Arab : Punjabi (Shahmukhi)
 qu : Quechua
-ro : Romanian, Moldavian, Moldovan
-rm : Romansh
+rom : Romany
+ro : Romanian
 rn : Rundi
 ru : Russian
-se : Northern Sami
 sm : Samoan
 sg : Sango
 sa : Sanskrit
-sc : Sardinian
+gd : Scots Gaelic
 sr : Serbian
+st : Sesotho
+crs : Seychellois Creole
+shn : Shan
 sn : Shona
+scn : Sicilian
+szl : Silesian
 sd : Sindhi
-si : Sinhala, Sinhalese
+si : Sinhala
 sk : Slovak
 sl : Slovenian
 so : Somali
-st : Southern Sotho
-es : Spanish, Castilian
+es : Spanish
 su : Sundanese
 sw : Swahili
 ss : Swati
 sv : Swedish
-tl : Tagalog
-ty : Tahitian
 tg : Tajik
 ta : Tamil
 tt : Tatar
 te : Telugu
+tet : Tetum
 th : Thai
-bo : Tibetan
 ti : Tigrinya
-to : Tonga (Tonga Islands)
 ts : Tsonga
 tn : Tswana
 tr : Turkish
 tk : Turkmen
-tw : Twi
-ug : Uighur, Uyghur
+ak : Twi (Akan)
 uk : Ukrainian
 ur : Urdu
+ug : Uyghur
 uz : Uzbek
-ve : Venda
 vi : Vietnamese
-vo : Volapük
-wa : Walloon
 cy : Welsh
-wo : Wolof
 xh : Xhosa
-ii : Sichuan Yi, Nuosu
 yi : Yiddish
 yo : Yoruba
-za : Zhuang, Chuang
+yua : Yucatec Maya
 zu : Zulu
 `
 
-/*
-const targetLangsObj = {
-    "ab" : "Abkhazian",
-    "aa" : "Afar",
-    "af" : "Afrikaans",
-    "ak" : "Akan",
-    "sq" : "Albanian",
-    "am" : "Amharic",
-    "ar" : "Arabic",
-    "an" : "Aragonese",
-    "hy" : "Armenian",
-    "as" : "Assamese",
-    "av" : "Avaric",
-    "ae" : "Avestan",
-    "ay" : "Aymara",
-    "az" : "Azerbaijani",
-    "bm" : "Bambara",
-    "ba" : "Bashkir",
-    "eu" : "Basque",
-    "be" : "Belarusian",
-    "bn" : "Bengali",
-    "bi" : "Bislama",
-    "bs" : "Bosnian",
-    "br" : "Breton",
-    "bg" : "Bulgarian",
-    "my" : "Burmese",
-    "ca" : "Catalan, Valencian",
-    "ch" : "Chamorro",
-    "ce" : "Chechen",
-    "ny" : "Chichewa, Chewa, Nyanja",
-    "zh" : "Chinese",
-    "cu" : "Church Slavonic, Old Slavonic, Old Church Slavonic",
-    "cv" : "Chuvash",
-    "kw" : "Cornish",
-    "co" : "Corsican",
-    "cr" : "Cree",
-    "hr" : "Croatian",
-    "cs" : "Czech",
-    "da" : "Danish",
-    "dv" : "Divehi, Dhivehi, Maldivian",
-    "nl" : "Dutch, Flemish",
-    "dz" : "Dzongkha",
-    "en" : "English",
-    "eo" : "Esperanto",
-    "et" : "Estonian",
-    "ee" : "Ewe",
-    "fo" : "Faroese",
-    "fj" : "Fijian",
-    "fi" : "Finnish",
-    "fr" : "French",
-    "fy" : "Western Frisian",
-    "ff" : "Fulah",
-    "gd" : "Gaelic, Scottish Gaelic",
-    "gl" : "Galician",
-    "lg" : "Ganda",
-    "ka" : "Georgian",
-    "de" : "German",
-    "el" : "Greek, Modern (1453-)",
-    "kl" : "Kalaallisut, Greenlandic",
-    "gn" : "Guarani",
-    "gu" : "Gujarati",
-    "ht" : "Haitian, Haitian Creole",
-    "ha" : "Hausa",
-    "he" : "Hebrew",
-    "hz" : "Herero",
-    "hi" : "Hindi",
-    "ho" : "Hiri Motu",
-    "hu" : "Hungarian",
-    "is" : "Icelandic",
-    "io" : "Ido",
-    "ig" : "Igbo",
-    "id" : "Indonesian",
-    "ia" : "Interlingua (International Auxiliary Language Association)",
-    "ie" : "Interlingue, Occidental",
-    "iu" : "Inuktitut",
-    "ik" : "Inupiaq",
-    "ga" : "Irish",
-    "it" : "Italian",
-    "ja" : "Japanese",
-    "jv" : "Javanese",
-    "kn" : "Kannada",
-    "kr" : "Kanuri",
-    "ks" : "Kashmiri",
-    "kk" : "Kazakh",
-    "km" : "Central Khmer",
-    "ki" : "Kikuyu, Gikuyu",
-    "rw" : "Kinyarwanda",
-    "ky" : "Kyrgyz, Kirghiz",
-    "kv" : "Komi",
-    "kg" : "Kongo",
-    "ko" : "Korean",
-    "kj" : "Kuanyama, Kwanyama",
-    "ku" : "Kurdish",
-    "lo" : "Lao",
-    "la" : "Latin",
-    "lv" : "Latvian",
-    "li" : "Limburgan, Limburger, Limburgish",
-    "ln" : "Lingala",
-    "lt" : "Lithuanian",
-    "lu" : "Luba-Katanga",
-    "lb" : "Luxembourgish, Letzeburgesch",
-    "mk" : "Macedonian",
-    "mg" : "Malagasy",
-    "ms" : "Malay",
-    "ml" : "Malayalam",
-    "mt" : "Maltese",
-    "gv" : "Manx",
-    "mi" : "Maori",
-    "mr" : "Marathi",
-    "mh" : "Marshallese",
-    "mn" : "Mongolian",
-    "na" : "Nauru",
-    "nv" : "Navajo, Navaho",
-    "nd" : "North Ndebele",
-    "nr" : "South Ndebele",
-    "ng" : "Ndonga",
-    "ne" : "Nepali",
-    "no" : "Norwegian",
-    "nb" : "Norwegian Bokmål",
-    "nn" : "Norwegian Nynorsk",
-    "oc" : "Occitan",
-    "oj" : "Ojibwa",
-    "or" : "Oriya",
-    "om" : "Oromo",
-    "os" : "Ossetian, Ossetic",
-    "pi" : "Pali",
-    "ps" : "Pashto, Pushto",
-    "fa" : "Persian",
-    "pl" : "Polish",
-    "pt" : "Portuguese",
-    "pa" : "Punjabi, Panjabi",
-    "qu" : "Quechua",
-    "ro" : "Romanian, Moldavian, Moldovan",
-    "rm" : "Romansh",
-    "rn" : "Rundi",
-    "ru" : "Russian",
-    "se" : "Northern Sami",
-    "sm" : "Samoan",
-    "sg" : "Sango",
-    "sa" : "Sanskrit",
-    "sc" : "Sardinian",
-    "sr" : "Serbian",
-    "sn" : "Shona",
-    "sd" : "Sindhi",
-    "si" : "Sinhala, Sinhalese",
-    "sk" : "Slovak",
-    "sl" : "Slovenian",
-    "so" : "Somali",
-    "st" : "Southern Sotho",
-    "es" : "Spanish, Castilian",
-    "su" : "Sundanese",
-    "sw" : "Swahili",
-    "ss" : "Swati",
-    "sv" : "Swedish",
-    "tl" : "Tagalog",
-    "ty" : "Tahitian",
-    "tg" : "Tajik",
-    "ta" : "Tamil",
-    "tt" : "Tatar",
-    "te" : "Telugu",
-    "th" : "Thai",
-    "bo" : "Tibetan",
-    "ti" : "Tigrinya",
-    "to" : "Tonga (Tonga Islands)",
-    "ts" : "Tsonga",
-    "tn" : "Tswana",
-    "tr" : "Turkish",
-    "tk" : "Turkmen",
-    "tw" : "Twi",
-    "ug" : "Uighur, Uyghur",
-    "uk" : "Ukrainian",
-    "ur" : "Urdu",
-    "uz" : "Uzbek",
-    "ve" : "Venda",
-    "vi" : "Vietnamese",
-    "vo" : "Volapük",
-    "wa" : "Walloon",
-    "cy" : "Welsh",
-    "wo" : "Wolof",
-    "xh" : "Xhosa",
-    "ii" : "Sichuan Yi, Nuosu",
-    "yi" : "Yiddish",
-    "yo" : "Yoruba",
-    "za" : "Zhuang, Chuang",
-    "zu" : "Zulu"
-}
-*/
-
 const targetLangsArr = [
-    "ab", "aa", "af", "ak", "sq", "am", "ar", "an", "hy", "as", 
-    "av", "ae", "ay", "az", "bm", "ba", "eu", "be", "bn", "bi", 
-    "bs", "br", "bg", "my", "ca", "ch", "ce", "ny", "zh", "cu", 
-    "cv", "kw", "co", "cr", "hr", "cs", "da", "dv", "nl", "dz", 
-    "en", "eo", "et", "ee", "fo", "fj", "fi", "fr", "fy", "ff", 
-    "gd", "gl", "lg", "ka", "de", "el", "kl", "gn", "gu", "ht", 
-    "ha", "he", "hz", "hi", "ho", "hu", "is", "io", "ig", "id", 
-    "ia", "ie", "iu", "ik", "ga", "it", "ja", "jv", "kn", "kr", 
-    "ks", "kk", "km", "ki", "rw", "ky", "kv", "kg", "ko", "kj", 
-    "ku", "lo", "la", "lv", "li", "ln", "lt", "lu", "lb", "mk", 
-    "mg", "ms", "ml", "mt", "gv", "mi", "mr", "mh", "mn", "na", 
-    "nv", "nd", "nr", "ng", "ne", "no", "nb", "nn", "oc", "oj", 
-    "or", "om", "os", "pi", "ps", "fa", "pl", "pt", "pa", "qu", 
-    "ro", "rm", "rn", "ru", "se", "sm", "sg", "sa", "sc", "sr", 
-    "sn", "sd", "si", "sk", "sl", "so", "st", "es", "su", "sw", 
-    "ss", "sv", "tl", "ty", "tg", "ta", "tt", "te", "th", "bo", 
-    "ti", "to", "ts", "tn", "tr", "tk", "tw", "ug", "uk", "ur", 
-    "uz", "ve", "vi", "vo", "wa", "cy", "wo", "xh", "ii", "yi", 
-    "yo", "za", "zu"
+    "ab", "ace", "ach", "af", "sq", "alz", "am", "ar", "hy", "as", 
+    "awa", "ay", "az", "ban", "bm", "ba", "eu", "btx", "bts", "bbc", 
+    "be", "bem", "bn", "bew", "bho", "bik", "bs", "br", "bg", "bua", 
+    "yue", "ca", "ceb", "ny", "zh-CN", "zh-TW", "cv", "co", "crh", 
+    "hr", "cs", "da", "din", "dv", "doi", "dov", "nl", "dz", "en", 
+    "eo", "et", "ee", "fj", "fil", "tl", "fi", "fr", "fr-FR", "fr-CA", 
+    "fy", "ff", "gaa", "gl", "lg", "ka", "de", "el", "gn", "gu", 
+    "ht", "cnh", "ha", "haw", "iw", "he", "hil", "hi", "hmn", "hu", 
+    "hrx", "is", "ig", "ilo", "id", "ga", "it", "ja", "jw", "jv", 
+    "kn", "pam", "kk", "km", "cgg", "rw", "ktu", "gom", "ko", "kri", 
+    "ku", "ckb", "ky", "lo", "ltg", "la", "lv", "lij", "li", "ln", 
+    "lt", "lmo", "luo", "lb", "mk", "mai", "mak", "mg", "ms", "ms-Arab", 
+    "ml", "mt", "mi", "mr", "chm", "mni-Mtei", "min", "lus", "mn", "my", 
+    "nr", "new", "ne", "nso", "no", "nus", "oc", "or", "om", "pag", 
+    "pap", "ps", "fa", "pl", "pt", "pt-PT", "pt-BR", "pa", "pa-Arab", "qu", 
+    "rom", "ro", "rn", "ru", "sm", "sg", "sa", "gd", "sr", "st", 
+    "crs", "shn", "sn", "scn", "szl", "sd", "si", "sk", "sl", "so", 
+    "es", "su", "sw", "ss", "sv", "tg", "ta", "tt", "te", "tet", 
+    "th", "ti", "ts", "tn", "tr", "tk", "ak", "uk", "ur", "ug", 
+    "uz", "vi", "cy", "xh", "yi", "yo", "yua", "zu"
 ]
 
 let currentTargetLang = "en";
@@ -436,19 +264,16 @@ document.addEventListener("mouseup", () => {
 
 document.addEventListener("keydown", (e) => {
     if(e.ctrlKey && e.key.toLowerCase() == "m") {
+        e.preventDefault();
         const opt = prompt("Please enter your desired options");
         if(opt === "help") {
             console.log(cmds);
-            console.log("");
         } else if(opt === "langs") {
             console.log(targetLangs);
-            console.log("");
         } else if(targetLangsArr.includes(opt)) {
             currentTargetLang = opt;
             console.log("Change completed");
-            console.log("");
-        } else if(opt === "exit") {
-            console.log("");
-        }
+        } else if(opt === "exit") {}
+        console.log("");
     }
 });

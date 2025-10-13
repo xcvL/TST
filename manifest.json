@@ -2,7 +2,7 @@
     "manifest_version" : 3,
     "name" : "text selection translator",
     "version" : "1.0",
-    "description" : "Automatically translates text when you drag and select it.",
+    "description" : "When you drag and select text, it will be automatically translated. The translated text will appear in the console.",
     "icons" : {
         "16" : "icons/icon16.png",
         "48" : "icons/icon48.png",
