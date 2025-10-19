@@ -1,8 +1,8 @@
 {
     "manifest_version" : 3,
-    "name" : "text selection translator",
+    "name" : "FastTrans",
     "version" : "1.0",
-    "description" : "When you drag and select text, it will be automatically translated. The translated text will appear in the console.",
+    "description" : "With FastTrans, translating selected text is effortless. \nSimply drag to highlight any text, and the translation will instantly appear in the console. \nEnjoy smooth, unobtrusive translations without pop-ups or tab switching. \nPerfect for developers, readers, and anyone browsing the web who wants instant, context-aware translations.",
     "icons" : {
         "16" : "icons/icon16.png",
         "48" : "icons/icon48.png",

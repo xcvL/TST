@@ -260,7 +260,7 @@ zap : Zapotec
 zu : Zulu
 `
 
-guide = `
+const guide = `
 [Quick Guide]
 - Select text and release mouse to translate.
 - Press Ctrl + M to open the language/command menu.
@@ -301,6 +301,9 @@ const targetLangsArr = [
 
 let currentTargetLang = "en";
 
+let mouseX;
+let mouseY;
+
 async function translate(text, lang) {
     const url=`https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${lang}&dt=t&q=${encodeURIComponent(text)}`;
     try {
@@ -315,7 +318,14 @@ async function translate(text, lang) {
 console.log(guide);
 console.log("");
 
-document.addEventListener("mouseup", () => {
+document.addEventListener("mousedown", (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+})
+
+document.addEventListener("mouseup", (e) => {
+    if(mouseX === e.clientX && mouseY === e.clientY) { return; }
+
     const text = window.getSelection().toString().trim();
     if(text.length !== 0) {
         translate(text, currentTargetLang).then((result) => {
@@ -337,8 +347,8 @@ document.addEventListener("keydown", (e) => {
         } else if(targetLangsArr.includes(opt)) {
             currentTargetLang = opt;
             console.log("Change completed.");
-        } else if(!targetLangs.includes(opt)) {
-            console.log("Change failed.")
+        } else {
+            console.log("failed.")
         }
         console.log("");
     }
