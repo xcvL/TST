@@ -2,7 +2,7 @@
     "manifest_version" : 3,
     "name" : "FastTrans",
     "version" : "1.0",
-    "description" : "With FastTrans, translating selected text is effortless. \nSimply drag to highlight any text, and the translation will instantly appear in the console. \nEnjoy smooth, unobtrusive translations without pop-ups or tab switching. \nPerfect for developers, readers, and anyone browsing the web who wants instant, context-aware translations.",
+    "description" : "With FastTrans, just drag to highlight text and see the translation instantly in the console.",
     "icons" : {
         "16" : "icons/icon16.png",
         "48" : "icons/icon48.png",
