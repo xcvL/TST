@@ -1,7 +1,7 @@
 {
     "manifest_version" : 3,
     "name" : "FastTrans",
-    "version" : "1.0",
+    "version" : "1.0.1",
     "description" : "With FastTrans, just drag to highlight text and see the translation instantly in the console.",
     "icons" : {
         "16" : "icons/icon16.png",
